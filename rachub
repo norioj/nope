@@ -1,4 +1,1 @@
-if game.PlaceId == 3237168 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lam29042008/rachub/main/racopl"))()
-if game.PlaceId == 8569358381 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lam29042008/rachub/main/duperac"))()
+
