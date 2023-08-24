@@ -3798,7 +3798,7 @@ createToggle(webhookSettingsSection, "Show Honey Per Hour", {"webhookSettings", 
 createToggle(webhookSettingsSection, "Show Daily Honey", {"webhookSettings", "showDailyHoney"}, true)
 createToggle(webhookSettingsSection, "Show Nectars", {"webhookSettings", "showNectars"}, true)
 createToggle(webhookSettingsSection, "Show Planters", {"webhookSettings", "showPlanters"}, true)
--- createToggle(webhookSettingsSection, "Show Items", {"webhookSettings", "showItems"}, true)
+createToggle(webhookSettingsSection, "Show Items", {"webhookSettings", "showItems"}, true)
 createToggle(webhookSettingsSection, "Truncated only", {"webhookSettings", "onlyTruncated"}, true)
 
 configTab = createTab("Config")
