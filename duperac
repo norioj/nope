@@ -2889,9 +2889,9 @@ function webhookFieldsList()
         end)
         if plantersString ~= "" then
             table.insert(fields, {
-                name = "Active Planters",
-                value = plantersString,
-                inline = false
+                ["name"] = "Active Planters",
+                ["value"] = plantersString,
+                ["inline"] = false
             })
         end
 	end
@@ -2907,9 +2907,9 @@ function webhookFieldsList()
 		end
 		if itemsString ~= "" then
 			table.insert(fields, {
-				name = "Items",
-				value = itemsString,
-				inline = false
+				["name"] = "Items Per Hours:",
+				["value"] = itemsString,
+				["inline"] = false
 			})
 		end
 	end
